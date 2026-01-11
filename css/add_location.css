@@ -1,0 +1,76 @@
+/* css/add_location.css */
+.form-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.form-card h2 {
+  color: #2d3436;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+  color: #636e72;
+}
+
+input[type="text"],
+input[type="file"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  box-sizing: border-box; /* Quan trọng để không bị tràn */
+}
+
+input:focus {
+  border-color: #00b894;
+  outline: none;
+}
+
+button {
+  background: linear-gradient(135deg, #00b894, #00cec9);
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 184, 148, 0.4);
+}
+
+.back-home {
+  margin-top: 20px;
+  text-align: center;
+  border-top: 1px solid #eee; /* Tạo một đường kẻ ngang nhẹ */
+  padding-top: 15px;
+}
+
+.back-home a {
+  color: #7f8c8d;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.back-home a:hover {
+  color: #00b894; /* Đổi màu xanh khi di chuột vào */
+  text-shadow: 0 0 5px rgba(0, 184, 148, 0.2);
+}

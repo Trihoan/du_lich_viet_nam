@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light; /* Ép trình duyệt không tự ý đổi màu sang Dark Mode */
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff !important; /* Màu trắng tuyệt đối */
+  color: #000000 !important; /* Chữ màu đen để không bị mất chữ trên nền trắng */
+}
+
+/* Đảm bảo Footer không bị đổi màu */
+.main-footer {
+  background-color: #a51c24 !important;
+  color: #ffffff !important;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+/* Phần nội dung chính */
+.main-wrapper {
+  flex: 1 0 auto; /* Đẩy footer xuống đáy trang */
+  background-color: #ffffff !important;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Ép chế độ sáng để không bị ảnh hưởng bởi Dark Mode của máy */
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 120px; /* Tạo khoảng trống để footer không che mất ảnh */
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-footer {
+  position: fixed; /* Cố định ở đáy */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #a51c24 !important;
+  color: white !important;
+  padding: 10px 0; /* Thu nhỏ padding để dải màu đỏ thanh mảnh hơn */
+  text-align: center;
+  z-index: 1000;
+}
+.footer-content p {
+  margin: 4px 0;
+  font-size: 10px;
+}

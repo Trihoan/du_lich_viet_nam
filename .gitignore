@@ -1,0 +1,15 @@
+# Bỏ qua thư mục chứa ảnh tải lên (vì khi đẩy lên Git chỉ cần code, không cần đống ảnh rác)
+uploads/*
+!uploads/.gitkeep
+
+# Bỏ qua file kết nối database nếu chứa mật khẩu cá nhân
+# db_connect.php
+
+# Bỏ qua các file cấu hình của trình soạn thảo
+.vscode/
+.idea/
+*.swp
+
+# Bỏ qua các file rác của hệ điều hành
+Thumbs.db
+desktop.ini
